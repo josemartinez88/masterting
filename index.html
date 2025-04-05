@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterting agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav id="navegador">
+        <img id="logoImagen" src="assets/logoHeader.svg" alt="logo Masterting">
+        <div id="botonera">
+            <ul id="hipervinculosHeader">
+                <li><a href="#seccionClientes" onclick="scrollToSection('seccionClientes'); return false;">Clientes</a></li>
+                <li><a href="#seccionServicios" onclick="scrollToSection('seccionServicios'); return false;">Servicios</a></li>
+            </ul>
+            <button id="btnHeader" class="btnPrimary" onclick="document.getElementById('bannerContacto').scrollIntoView({ behavior: 'smooth' });">Contáctanos</button>
+            <img class="menuMobile" src="assets/menuMobile.svg" alt="menu hamburguesa">
+        </div>
+    </nav>
+
+
+
+
+    <!-- HERO BANNER -->
+    <div id="heroBanner">
+        <div id="contenidoHeroBanner">
+            <h1 id="tituloHeroBanner">Aumenta tu crecimiento con estrategias de marketing <span style="color:#f60450;">innovadoras</span></h1>
+            <p id="descripcionHeroBanner">Muestra cómo el growth marketing impulsa resultados rápidos a travez de estrategias optimizadas.</p>
+            <button id="btnHero" class="btnPrimary" onclick="document.getElementById('bannerContacto').scrollIntoView({ behavior: 'smooth' });">Conocer más</button>
+        </div>
+    </div>
+
+
+    
+    <!-- QUIENES SOMOS  -->
+    <div id="bannerQuienesSomos">
+        <div id="contenidoBannerQuienesSomos">
+            <h2 id="tituloBannerQuienesSomos">Somos más que una agencia. <br>Somos una <span style="color:#f60450;">actitud.</span></h2>
+            <hr class="linea">
+            <p id="descripcionHeroBanner">En Masterting Agency no hacemos marketing para llenar feeds, lo hacemos para mover ideas, personas y marcas. Nacimos como una marca personal, pero crecimos como un equipo de mentes obsesionadas con la estrategia, la estética y el resultado.</p>
+        </div>
+    </div>
+
+
+
+
+    <!-- CLIENTES -->
+    <div id="seccionClientes">
+        <h2 class="tituloSeccionClientes">Ellos confian en nosotros</h2>
+
+        <div class="logo-slider">
+            <div class="logo-track">
+              <img src="assets/clientes/logo1.svg" alt="Logo 1">
+              <img src="assets/clientes/logo2.svg" alt="Logo 2">
+              <img src="assets/clientes/logo3.svg" alt="Logo 3">
+              <img src="assets/clientes/logo4.svg" alt="Logo 4">
+              <img src="assets/clientes/logo5.svg" alt="Logo 5">
+              <img src="assets/clientes/logo6.svg" alt="Logo 6">
+              <img src="assets/clientes/logo7.svg" alt="Logo 7">
+              <img src="assets/clientes/logo8.svg" alt="Logo 8">
+              <img src="assets/clientes/logo9.svg" alt="Logo 9">
+              <img src="assets/clientes/logo10.svg" alt="Logo 10">
+              <img src="assets/clientes/logo11.svg" alt="Logo 11">
+              <img src="assets/clientes/logo12.svg" alt="Logo 12">
+              <img src="assets/clientes/logo13.svg" alt="Logo 13">
+              <img src="assets/clientes/logo14.svg" alt="Logo 14">
+              <img src="assets/clientes/logo15.svg" alt="Logo 15">
+              <img src="assets/clientes/logo16.svg" alt="Logo 16">
+              <img src="assets/clientes/logo17.svg" alt="Logo 17">
+              <!-- Repetición logos-->
+              <img src="assets/clientes/logo1.svg" alt="Logo 1">
+              <img src="assets/clientes/logo2.svg" alt="Logo 2">
+              <img src="assets/clientes/logo3.svg" alt="Logo 3">
+              <img src="assets/clientes/logo4.svg" alt="Logo 4">
+              <img src="assets/clientes/logo5.svg" alt="Logo 5">
+              <img src="assets/clientes/logo6.svg" alt="Logo 6">
+              <img src="assets/clientes/logo7.svg" alt="Logo 7">
+              <img src="assets/clientes/logo8.svg" alt="Logo 8">
+              <img src="assets/clientes/logo9.svg" alt="Logo 9">
+              <img src="assets/clientes/logo10.svg" alt="Logo 10">
+              <img src="assets/clientes/logo11.svg" alt="Logo 11">
+              <img src="assets/clientes/logo12.svg" alt="Logo 12">
+              <img src="assets/clientes/logo13.svg" alt="Logo 13">
+              <img src="assets/clientes/logo14.svg" alt="Logo 14">
+              <img src="assets/clientes/logo15.svg" alt="Logo 15">
+              <img src="assets/clientes/logo16.svg" alt="Logo 16">
+              <img src="assets/clientes/logo17.svg" alt="Logo 17">
+            </div>
+        </div>
+
+        <button class="btnPrimary" onclick="document.getElementById('bannerContacto').scrollIntoView({ behavior: 'smooth' });">Cotiza con nosotros</button>
+    </div>
+
+
+
+    <!-- FORMULA  -->
+    <div id="bannerFormula">
+        <div id="contenidoBannerFormula">
+            <h2 id="tituloBannerFormula">¿Nuestra fórmula secreta?</h2>
+            <h3 id="subtituloBannerFormula">Creatividad + Datos + Mucho, pero mucho criterio.</h3>
+            <hr class="linea">
+            <p id="descripcionBannerFormula">Creamos campañas que se sienten, diseños que se recuerdan y contenidos que conectan, porque no seguimos fórmulas: las rompemos. No hacemos lo que todos hacen, hacemos lo que tu marca realmente necesita.</p>
+        </div>
+    </div>
+
+
+
+    <!-- SERVICIOS -->
+    <div id="seccionServicios">
+        <h2>Nuestros servicios</h2>
+            <div id="servicios">
+                <div id="servicioCard">
+                    <img id="iconosServicios" src="assets/icono1.svg" alt="Icono Transformación Digital">
+                    <h3 id="tituloServicio">Transformación Digital</h3>
+                    <p id="descripcionServicios">Llevamos tu empresa al futuro digital con soluciones tecnológicas personalizadas. Desde la estrategia hasta la implementación.</p>
+                    <button class="btnPrimary" onclick="document.getElementById('bannerContacto').scrollIntoView({ behavior: 'smooth' });">Me interesa</button>
+                </div>
+                <div id="servicioCard">
+                    <img id="iconosServicios" src="assets/icono2.svg" alt="Icono Spin Off Empresarial">
+                    <h3 id="tituloServicio">Spin Off Empresarial</h3>
+                    <p id="descripcionServicios">Impulsamos el crecimiento de tu empresa creando nuevas oportunidades de negocio a través de soluciones tecnológicas innovadoras</p>
+                    <button class="btnPrimary" onclick="document.getElementById('bannerContacto').scrollIntoView({ behavior: 'smooth' });">Me interesa</button>
+                </div>
+                <div id="servicioCard">
+                    <img id="iconosServicios" src="assets/icono3.svg" alt="Icono Metodologías Ágiles">
+                    <h3 id="tituloServicio">Metodologías Ágiles</h3>
+                    <p id="descripcionServicios">Optimiza tus proyectos con metodologías ágiles que aceleran la entrega de resultados, garantizando eficiencia y calidad.</p>
+                    <button class="btnPrimary" onclick="document.getElementById('bannerContacto').scrollIntoView({ behavior: 'smooth' });">Me interesa</button>
+                </div>
+            </div>
+    </div>
+
+
+
+
+    <!-- PORTAFOLIO -->
+    <div id="seccionPortafolio">
+        <div id="contendioPortafolio">
+            <h2 id="tituloPortafolio">Conoce un poco de nuestro trabajo</h2>
+                <div id="portafolio">
+                    <div id="imgPort">
+                        <img id="imagenPortafolio" src="assets/portafolio1.jpg" alt="Imagen portafolio uHomie">
+                        <div id="portafolioCardLeft">
+                            <div id="caracteristicasPort">
+                                <div class="contentPort">
+                                    <h3 id="txtPort">Marca</h3>
+                                    <p id="txtPort">uHomie</p>
+                                </div>
+                                <div class="contentPort">
+                                    <h3 id="txtPort">Trabajo</h3>
+                                    <p id="txtPort">Diseño y social media</p>
+                                </div>
+                            </div>
+                            <button class="btnSecundary" onclick="window.open('https://www.behance.net/gallery/220862353/Social-Media-uHomie', '_blank')">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div id="imgPort">
+                        <img id="imagenPortafolio" src="assets/portafolio2.jpg" alt="Imagen portafolio Branddu">
+                        <div id="portafolioCardLeft">
+                            <div id="caracteristicasPort">
+                                <div class="contentPort">
+                                    <h3 id="txtPort">Marca</h3>
+                                    <p id="txtPort">Branddu</p>
+                                </div>
+                                <div class="contentPort">
+                                    <h3 id="txtPort">Trabajo</h3>
+                                    <p id="txtPort">UI/UX & Branding</p>
+                                </div>
+                            </div>
+                            <button class="btnSecundary" onclick="window.open('https://www.behance.net/gallery/217950319/UIUX-Design-website-brandducomco', '_blank')">Ver proyecto</button>
+                        </div>
+                    </div>
+                    <div id="imgPort">
+                        <img id="imagenPortafolio" src="assets/portafolio3.jpg" alt="Imagen portafolio Super Cono">
+                        <div id="portafolioCardLeft">
+                            <div id="caracteristicasPort">
+                                <div class="contentPort">
+                                    <h3 id="txtPort">Marca</h3>
+                                    <p id="txtPort">Super Cono</p>
+                                </div>
+                                <div class="contentPort">
+                                    <h3 id="txtPort">Trabajo</h3>
+                                    <p id="txtPort">Branding y social media</p>
+                                </div>
+                            </div>
+                            <button class="btnSecundary" onclick="window.open('https://www.behance.net/gallery/210913453/Brand-identify-Super-Cono', '_blank')">Ver proyecto</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- DATOS -->
+    <div id="seccionDatos">
+        <div id="contenidoDatos">
+            <div id="datos">
+                <img id="iconoCirculo" src="assets/iconoCirculo.svg" alt="icono circulo">
+                <p class="hero">+1000</p>
+                <h3>Clientes</h3>
+                <p id="descripcionDatos">En diversos sectores han confiado en nuestras soluciones tecnológicas personalizadas, logrando una transformación digital efectiva</p>
+            </div>
+            <div id="datos">
+                <img id="iconoCirculo" src="assets/iconoCirculo.svg" alt="icono circulo">
+                <p class="hero">+400</p>
+                <h3>Webs desarrolladas</h3>
+                <p id="descripcionDatos">Hemos ayudado a empresas de todos los tamaños a establecer su presencia digital para impulsar su visibilidad y el crecimiento de sus negocios</p>
+            </div>
+            <div id="datos">
+                <img id="iconoCirculo" src="assets/iconoCirculo.svg" alt="icono circulo">
+                <p class="hero">+300</p>
+                <h3>Apps desarrolladas</h3>
+                <p id="descripcionDatos">Ayudamos a nuestros clientes a conectar con sus usuarios de manera efectiva, ofreciendo soluciones móviles que destacan por su funcionalidad y diseño.</p>
+            </div>
+        </div>
+        <button class="btnTertiary" onclick="document.getElementById('bannerContacto').scrollIntoView({ behavior: 'smooth' });">¡Cotiza con nosotros!</button>
+    </div>
+
+
+
+
+    <!-- CONTACTO -->
+    <div id="bannerContacto">
+        <div id="contenidoBannerFormula">
+            <h2 id="tituloBannerFormula">Contáctanos</h2>
+            <div id="informacionContacto">
+                <div id="infoContacto">
+                    <img id="iconoContacto" src="assets/iconoEmail.svg" alt="icono correo electrónico">
+                    <div class="linea-vertical"></div>
+                    <p id="txtContacto">joselo.creativos@gmail.com</p>
+                </div>
+                <div id="infoContacto">
+                    <img id="iconoContacto2" src="assets/iconoTelefono.svg" alt="icono teléfono">
+                    <div class="linea-vertical"></div>
+                    <p id="txtContacto">301 632 1817</p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <hr class="linea2">
+        <div id="contenidoFooter">
+            <img id="logoFooter" src="assets/logoFooter.svg" alt="Logo Footer">
+            <div id="redesSociales">
+                <p class="txtCaption">©2024 Todos los derechos reservados a Imaginamos S.A.S</p>
+                <div id="logosRedes">
+                    <img id="iconosRedesSociales" src="assets/iconoFacebook.svg" alt="Logo Facebook">
+                    <img id="iconosRedesSociales" src="assets/iconoInstagram.svg" alt="Logo Instagram">
+                    <img id="iconosRedesSociales" src="assets/iconoYoutube.svg" alt="Logo YouTube">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <!-- JS -->
+    <script src="javascript.js"></script>
+
+</body>
+</html>
